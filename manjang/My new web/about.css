@@ -1,0 +1,17 @@
+h1{
+font: 100;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: darkorange;
+background-color: aquamarine;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 10px
+}
+
+body{
+    background-image: url("My new web/keto.jpg")
+#usethisone{
+    background-attachment: fixed;
+}

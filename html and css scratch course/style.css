@@ -1,0 +1,23 @@
+h1{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:bold;
+}
+
+p{
+    text-align:left;
+    color: aqua;
+    font-size: 20px;
+}
+
+body{
+text-align: center;
+}
+
+ul{
+    text-align: justify;
+}
+
+html{
+    background-image: url(png.jpg)
+    }

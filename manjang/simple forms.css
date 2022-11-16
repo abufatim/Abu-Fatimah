@@ -1,0 +1,22 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color: orange
+}
+    h2{
+        font-size: 15px;
+        text-align: justify;
+        color: orange;
+        font-style: italic;
+}
+form{
+    font-size: 10px;
+    color: hotpink;
+    align-content: center;
+    }
+    body{
+        background-color:aquamarine;
+        background: size 20px;
+        align-content: center;
+}
