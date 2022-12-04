@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../manjang"
+		},
+		{
+			"path": "../html and css scratch course"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html and css scratch course",
+		"liveServer.settings.port": 5501
+	}
+}

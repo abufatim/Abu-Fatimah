@@ -1,0 +1,209 @@
+
+
+
+* {
+    color: green;
+    
+    
+}
+
+
+
+
+body {
+    background-color: white;
+    opacity: 0.9;
+   
+}
+
+
+header {
+    padding: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: y;
+    opacity: 0.8;
+    margin: 5px 5px 5px 5px;
+    margin-top: -200px;
+
+}
+
+h2 {
+    color: green;
+    text-shadow: 10px;
+    font-weight: lighter;
+}
+
+h6 {
+    color: green;
+    
+}
+
+.container {
+    padding: 10px;
+    float: left;
+    text-align: center;
+   
+    }
+
+.container ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.container ul li {
+    padding: 10px;
+    margin: 0;
+    width: 180px;
+    
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: green;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.container ul li:hover {
+    background-color: yellowgreen;
+    opacity: 1;
+  
+}
+
+.tag {
+    display: none;
+}
+
+.container ul li:hover .tag {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+
+.container ul li:hover .tag ul {
+    display: block;
+    margin: 10px;
+}
+
+.container ul li:hover .tag ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    text-align: left;
+}
+
+
+.hog {
+    background-position: center;
+}
+
+.mog {
+    padding: 50px;
+    
+    
+    margin-top: 10px;
+    margin: 10px;
+    display: block;
+    
+}
+
+.fag {
+    padding: 10px;
+    margin: 0;
+    margin-top: -50px;
+
+    
+}
+
+.cat {
+    padding: 20px;
+    background-color: ;
+    margin: 200px;
+    margin-top: -180px;
+    font-size: 18px;
+
+}
+
+.cat a {
+    padding: 14px 25px;
+    text-decoration: none;
+    text-align: center;
+    margin: 200px;
+    background-color:yellowgreen;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.goblet {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: -200px;
+}
+
+.globe {
+    background-color: yellow;
+    opacity: ;
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.xx {
+    height: 100px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-1 {
+    background-image: url(pexels-rajesh-tp-1624487.jpg);
+}
+
+.img-2 {
+    background-image: url(pexels-shameel-mukkath-11161455.jpg) ;
+}
+
+.img-3 {
+    background-image: url(pexels-shameel-mukkath-11161475.jpg);
+}
+
+.img-4 {
+    background-image: url(pexels-shameel-mukkath-11161415.jpg);
+}
+
+.globe h2 {
+    padding: 5px;
+}
+
+.globe a {
+    background-color: greenyellow;
+    color: green;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 15px 45px;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.globe:hover {
+    background-color: azure;
+    opacity: ;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.45);
+}
+
+
+
+
+
+

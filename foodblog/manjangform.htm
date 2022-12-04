@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="manjangform.css">
+</head>
+<body>
+    
+    <h1>Sign In</h1>
+    <h2>WElCOME TO THE FOODIE CHEF <br> RESTURANT</h2>
+
+    <div class="man">
+        <form action="">
+        <fieldset>
+
+            <legend>User Information</legend>
+
+            <table>
+                <tr>
+                    <td class="tdlabel"><label for="User name" class="label">Enter Username:</label></td>
+                    <td><input type="text" id="User name" name="name" width="160px"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdlabel"><label for="password" class="label">Enter Password:</label></td>
+                    <td><input type="password" name="password" id="password" width="160px"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdlabel"><label for="email" class="label">Enter Email:</label></td>
+                    <td><input type="email" name="email" id="email" width="160px"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdlabel"><label for="address" class="label">Enter Address:</label></td>
+                    <td><input type="address" name="address" id="address" width="160px"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdlabel"><label for="dob" class="label">Date Of Birth:</label></td>
+                    <td><input type="dob" name="dob" id="dob" width="160px"></td>
+                </tr>
+
+                <tr>
+                    <td class="tdlabel"><label for="gender" class="label">Select Gender:</label></td>
+                    <td><input type="radio" name="gender" id="gender" value="male">
+                        <label for="select_gender">Male</label>
+                        <input type="radio" name="gender" id="gender" value="female">
+                        <label for="select_gender">Female</label>
+                    </td>    
+                </tr>
+            </table>
+
+            <label for="security question">Security Question:</label>
+            <select name="question" id="question">
+                <option value="question_1">What is your fav color?</option>
+                <option value="question_2">What is your fav food?</option>
+                <option value="question_3">What is your holiday destination?</option>
+                <option value="question_4">What is your motivation?</option>
+            </select>
+
+            <label for="answer_question">Answer:</label>
+            <input type="text" name="answer_question" id="answer_question" width="160px">
+            <br><br>
+
+            <button>SIGN IN</button>
+
+        </fieldset>
+        </form>
+    </div>
+</body>
+</html>
